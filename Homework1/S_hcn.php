@@ -39,8 +39,8 @@
     ini_set('display_errors',0);
     $width = $_POST['width'];
     $height = $_POST['height'];
-    // $perimeter = ($width+$height)*2;
-    $area = $width*$height;
+  
+    $S = $width*$height;
 ?>
     <form action="" method="post">
         <table>
@@ -71,7 +71,7 @@
                     Diện tích
                 </td>
                 <td>
-                    <input type="text" name="acreage" value="<?php echo $area ?>">
+                    <input type="text" name="" value="<?php echo $S ?>">
                 </td>
             </tr>
             <tr class="center">
