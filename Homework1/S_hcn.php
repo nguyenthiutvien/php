@@ -9,7 +9,9 @@
         table{
             width: 500px;
             margin: auto;
-            background: #ffca97;
+            background-color: #f5f5f5;
+
+
         }
         td{
             padding: 10px;
@@ -36,10 +38,9 @@
 </head>
 <body>
 <?php
-    ini_set('display_errors',0);
-    $width = $_POST['width'];
-    $height = $_POST['height'];
-  
+   
+    $width = (int)$_POST["width"];
+    $height = (int)$_POST["height"];
     $S = $width*$height;
 ?>
     <form action="" method="post">
