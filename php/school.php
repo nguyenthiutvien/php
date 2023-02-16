@@ -7,26 +7,7 @@
 <meta name="Description" content="Enter your description here"/>
 
 <title>Title</title>
-<style>
-    #content {
-        background-color: bisque;
-        width:600px;
-        height: 600px;
-        margin: auto;
-        padding-top: 50px;
-    }
-    .list_schools {
-        margin:auto;
-        background-color: coral;
-        width: 500px;
-        border: 1px solid black;
-    }
-    .title {
-        color:crimson;
-        text-align: center;
-    }
 
-</style>
 </head>
 <body>
 <?php 
