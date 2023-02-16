@@ -1,0 +1,32 @@
+.card-group{
+    grid: 25% 25% 25% 25%;
+    display: flex;
+    gap: 10px;
+    
+}
+.card{
+    width: 250px;
+    height: 500px;
+}
+#phone_img img {
+    width: 210px;
+    height: 260px;
+}
+.star {
+    color: yellow;
+}
+.title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:#ffff;
+    font-size: 34px;
+    background-color:cornflowerblue;
+    border-radius: 50px;
+}
+#phone_price{
+    color: red;
+}
+#plus_button{
+   border-radius: 100px;
+}
