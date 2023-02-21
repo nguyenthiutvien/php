@@ -18,36 +18,36 @@
     'Sản phẩm nổi bật' => array(
         array(
             'img' => 'https://cdn.tgdd.vn/Products/Images/42/260546/oppo-reno8-pro-thumb-xanh-1-600x600.jpg',
-            'name' => 'Oppo Reno8',
+            'name' => 'Appo Reno8',
             'price' => '1.700.000đ',
             'feedback' => array(
-                                'quatity_star' => 4,
-                                'quatity_feedback' => "9999 đánh giá", ),
+                                'quatity_star' => 3,
+                                'quatity_feedback' => "999 đánh giá", ),
             ),
         array(
             'img' => 'https://cdn.tgdd.vn/Products/Images/42/240259/iPhone-14-thumb-do-600x600.jpg',
-            'name' => 'Oppo Reno8',
+            'name' => 'Rppo Reno8',
             'price' => '4.700.000đ',
             'feedback' => array(
-                                'quatity_star' => 4,
-                                'quatity_feedback' => "9999 đánh giá", ),
+                                'quatity_star' => 5,
+                                'quatity_feedback' => "99 đánh giá", ),
             ),
         array(
             'img' => 'https://cdn.tgdd.vn/Products/Images/42/249945/oppo-a16k-thumb1-600x600-1-600x600.jpg',
-            'name' => 'Oppo Reno8',
+            'name' => 'Sam Sum',
             'price' => '8.700.000đ',
             'feedback' => array(
-                                'quatity_star' => 4,
-                                'quatity_feedback' => "9999 đánh giá", ),
+                                'quatity_star' => 2,
+                                'quatity_feedback' => "9929 đánh giá", ),
         ),
       
         array(
             'img' => 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-600x600.jpg',
-            'name' => 'Oppo Reno8',
+            'name' => 'Lomo Reno8',
             'price' => '2.700.000đ',
             'feedback' => array(
-                                'quatity_star' => 4,
-                                'quatity_feedback' => "9999 đánh giá", ),
+                                'quatity_star' => 5,
+                                'quatity_feedback' => "4599 đánh giá", ),
              ),
   
             ),
@@ -56,26 +56,26 @@
     'Sản phẩm mới nhất' => array(
         array(
             'img' => 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-600x600.jpg',
-            'name' => 'Oppo Reno8',
+            'name' => 'Appo Reno8',
             'price' => '1.700.000đ',
             'feedback' => array(
-                                'quatity_star' => 4,
-                                'quatity_feedback' => "9999 đánh giá", ),
+                                'quatity_star' => 2,
+                                'quatity_feedback' => "199 đánh giá", ),
            ),
         array(
             'img' => 'https://cdn.tgdd.vn/Products/Images/42/249945/oppo-a16k-thumb1-600x600-1-600x600.jpg',
-            'name' => 'Oppo Reno8',
+            'name' => 'Bopo Reno8',
             'price' => '6.300.000đ',
             'feedback' => array(
                                 'quatity_star' => 4,
-                                'quatity_feedback' => "9999 đánh giá", ),
+                                'quatity_feedback' => "9989 đánh giá", ),
             ),
         array(
             'img' => 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-600x600.jpg',
-            'name' => 'Oppo Reno8',
+            'name' => 'Copo Reno8',
             'price' => '1.700.000đ',
             'feedback' => array(
-                                'quatity_star' => 4,
+                                'quatity_star' => 5,
                                 'quatity_feedback' => "9999 đánh giá", ),
             ),
         array(
@@ -88,16 +88,19 @@
             ),
         
         ));
+
+        ksort($list_phones);
 ?>
 
 <div id="content">
+    
     <?php 
+    
     foreach ($list_phones as $key => $value) { ?>
         <div class="title"> 
             <?php echo $key ?>
     </div>
         <div class="card-group">
-            
                 <?php 
                 foreach ( $value as $k => $v ) {
                     ?>
@@ -112,10 +115,10 @@
                                 for ($i=0; $i< $quatity_star; $i++) {
                                     echo '<span class="star"><i class="fa-sharp fa-solid fa-star"></i></span>';};
                             
-                            echo '<span>  ' .$v['feedback']['quatity_feedback']. '</span>';
+                            echo '<span> ' .$v['feedback']['quatity_feedback']. '</span>';
                             ?>
                         </div>
-                        <div id="plus_button"><button>+</button></div>
+                        <div id="plus_button"><button id="plus">+</button></div>
                     </div>
                     </div>
             <?php }
