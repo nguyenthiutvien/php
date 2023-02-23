@@ -119,6 +119,7 @@ require_once 'functions.php';
             // neu check bang false thi them 
             if ($check==false){
                 $_SESSION['student'][$student_id]=$item_student;
+                
                 set_flash_session('mess_flash', 'Thêm sinh viên thành công');
                 redirect('list.php');
             }else{
