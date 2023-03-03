@@ -10,19 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
      
-        #container {
-            width: 90%;
-            margin: auto;
-        }
-        .card-group{
-            display: flex;
-            gap: 20px;
-            
-        }
-        .card-body #code{
-            text-align: center;
-        }
-        #gia{
+        
+        #price{
             color: red;
             text-align: center;
         }
@@ -44,7 +33,18 @@
             text-align: center;
             font-weight: bold;
         }
-      
+        #container {
+            width: 90%;
+            margin: auto;
+        }
+        .card-group{
+            display: flex;
+            gap: 20px;
+            
+        }
+        .card-body #code{
+            text-align: center;
+        }
         #container .title{
             margin-top: 20px;
             margin-bottom: 20px;
@@ -110,7 +110,7 @@ $img=$_POST['img'];
 
 
 $newProducts => array(
-    
+
     'name'=> $name,
     'code' =$code,
     'price' =$price,
@@ -141,7 +141,7 @@ array_push($products, $newProducts);?>
             'name'=>"Quan Tay Au",
             'code'=>"ATGFG340",
             'old_price' => "",
-            'price'=>'398.000',
+            'price'=>'348.000',
             'img' => 'https://img.cdn.vncdn.io/cdn-pos/d0f3ca-7136/ps/20230207_6XkQ12bbX5EolJAc.jpeg',
     
             ),
@@ -152,7 +152,7 @@ array_push($products, $newProducts);?>
             'name'=>"The Cosmos(Den) Quan short kaki",
             'code'=>"ATGFG340",
             'old_price' => "",
-            'price'=>'398.000',
+            'price'=>'391.000',
             'img' => 'https://img.cdn.vncdn.io/cdn-pos/d0f3ca-7136/ps/20230110_z0K1U5mKWfTCi6Z3.jpeg',
             ),
         array(
@@ -160,7 +160,7 @@ array_push($products, $newProducts);?>
             'name'=>"The Cosmos(Den) Quan short kaki",
             'code'=>"ATGFG340",
             'old_price' => "",
-            'price'=>'398.000',
+            'price'=>'392.000',
             'img' => 'https://img.cdn.vncdn.io/cdn-pos/d0f3ca-7136/ps/20230207_6XkQ12bbX5EolJAc.jpeg',
             ),
         ),
@@ -171,7 +171,7 @@ array_push($products, $newProducts);?>
             'name'=>"The Cosmos(Den) Quan short kaki",
             'code'=>"ATGFG340",
             'old_price' => "",
-            'price'=>'398.000',
+            'price'=>'392.000',
             'img' => 'https://img.cdn.vncdn.io/cdn-pos/d0f3ca-7136/ps/20230207_fHUA79xpTfTtZPtw.jpeg',
            ),
         array(
