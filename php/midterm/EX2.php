@@ -110,6 +110,7 @@ $img=$_POST['img'];
 
 
 $newProducts => array(
+    
     'name'=> $name,
     'code' =$code,
     'price' =$price,
