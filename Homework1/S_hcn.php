@@ -1,10 +1,8 @@
-<!-- 
-    
- -->
+
  <!DOCTYPE html>
 <html>
 <head>
-    <title>Hình chữ nhật</title>
+    <title>Tính diện tích</title>
     <style>
         table{
             width: 500px;
@@ -34,6 +32,12 @@
         button:hover{
             cursor: pointer;
         }
+        p{
+            color: red;
+            font-size: 40;
+            text-align: center;
+
+        }
     </style>
 </head>
 <body>
@@ -42,6 +46,37 @@
     $width = (int)$_POST["width"];
     $height = (int)$_POST["height"];
     $S = $width*$height;
+    $kqif;
+    // if else
+    if ($S >=200) {
+        $kqif = "<p>Bạn nên xây villa</p>";
+    }elseif ($S >=150){
+        $kqif ="<p>Bạn nên xây biệt thư</p>";
+
+    }elseif ($S >=100) {
+        $kqif ="<p>Bạn nên xây nhà cao tầng</p>";
+    }
+    else{
+        $kqif ="<p> Bạn nên xây nhà cấp 4</p>";
+    }
+    // switch 
+    
+    // switch ($S) {
+    //     case ($S>=200):
+    //       echo "<p>Bạn nên xây villa</p>";
+    //       break;
+    //     case ($S<=200 && $S>=150):
+    //       echo "<p>Bạn nên xây biệt thư</p>";
+    //       break;
+    //     case (  $S<=150 && $S>=100):
+    //       echo "<p>Bạn nên xây nhà cao tầng</p>";
+    //       break;
+    //   default:
+    //       echo "<p>Xây nhà cấp 4 thôi nha!</p>";
+    //       break;
+    //   }
+
+
 ?>
     <form action="" method="post">
         <table>
@@ -80,6 +115,20 @@
                     <button type="submit">TÍNH</button>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    Nhận xét
+                </td>
+                <td>
+                    <input type="text" id="kq" value="">
+                    <script>
+
+                        kq = document.getElementById("kq").innerHTML = <?php echo $kqif ?>;
+
+                    </script>
+                </td>
+            </tr>
+            
         </table>
     </form>
 </body>

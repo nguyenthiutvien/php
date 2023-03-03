@@ -107,14 +107,19 @@ $price =$_POST['price'];
 $old_price=$_POST['old_price'];
 $img=$_POST['img'];
 
-$products['Thoi trang nam']=array(
+
+
+$newProducts => array(
     'name'=> $name,
     'code' =$code,
     'price' =$price,
     'old_price'=$old_price,
     'img'=$img,
 
-)?>
+)
+array_push($products, $newProducts);?>
+
+
 
     <?php 
     $products = 
