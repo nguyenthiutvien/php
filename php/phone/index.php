@@ -11,92 +11,95 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
+
 <body>
     <?php 
-    $list_phones = 
+    $product = 
     array (
-    'Sản phẩm nổi bật' => array(
+    'Thoi trang nam' => array(
         array(
-            'img' => 'https://cdn.tgdd.vn/Products/Images/42/260546/oppo-reno8-pro-thumb-xanh-1-600x600.jpg',
-            'name' => 'Appo Reno8',
-            'price' => '1.700.000đ',
-            'feedback' => array(
-                                'quatity_star' => 3,
-                                'quatity_feedback' => "999 đánh giá", ),
+            'id'=>1,
+            'name'=>"The Cosmos(Den) Quan short kaki",
+            'code'=>"TC1025011BA",
+            'price'=>'398.000',
+            'old_price'=>'',
+            'img' => 'https://img.cdn.vncdn.io/cdn-pos/d0f3ca-7136/ps/20230207_GMw1RF3phiVKvnsm.jpeg',
+            
             ),
         array(
-            'img' => 'https://cdn.tgdd.vn/Products/Images/42/240259/iPhone-14-thumb-do-600x600.jpg',
-            'name' => 'Rppo Reno8',
-            'price' => '4.700.000đ',
-            'feedback' => array(
-                                'quatity_star' => 5,
-                                'quatity_feedback' => "99 đánh giá", ),
+            'id'=>2,
+            'name'=>"The Cosmos(Den) Quan short kaki",
+            'code'=>"TC1025011BA",
+            'price'=>'398.000',
+            'old_price'=>'498.000',
+            'img' => 'https://img.cdn.vncdn.io/cdn-pos/d0f3ca-7136/ps/20230207_6XkQ12bbX5EolJAc.jpeg',
             ),
-        array(
-            'img' => 'https://cdn.tgdd.vn/Products/Images/42/249945/oppo-a16k-thumb1-600x600-1-600x600.jpg',
-            'name' => 'Sam Sum',
-            'price' => '8.700.000đ',
-            'feedback' => array(
-                                'quatity_star' => 2,
-                                'quatity_feedback' => "9929 đánh giá", ),
-        ),
+      
       
         array(
-            'img' => 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-600x600.jpg',
-            'name' => 'Lomo Reno8',
-            'price' => '2.700.000đ',
-            'feedback' => array(
-                                'quatity_star' => 5,
-                                'quatity_feedback' => "4599 đánh giá", ),
-             ),
-  
+            'id'=>3,
+            'name'=>"The Cosmos(Den) Quan short kaki",
+            'code'=>"TC1025011BA",
+            'price'=>'398.000',
+            'old_price'=>'',
+            'img' => 'https://img.cdn.vncdn.io/cdn-pos/d0f3ca-7136/ps/20230110_z0K1U5mKWfTCi6Z3.jpeg',
             ),
+            array(
+                'id'=>4,
+                'name'=>"The Cosmos(Den) Quan short kaki",
+                'code'=>"TC1025011BA",
+                'price'=>'398.000',
+                'old_price'=>'',
+                'img' => 'https://img.cdn.vncdn.io/cdn-pos/d0f3ca-7136/ps/20230207_6XkQ12bbX5EolJAc.jpeg',
+                ),
+        ),
 
-
-    'Sản phẩm mới nhất' => array(
+    'Thoi trang nu' => array(
         array(
-            'img' => 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-600x600.jpg',
-            'name' => 'Appo Reno8',
-            'price' => '1.700.000đ',
-            'feedback' => array(
-                                'quatity_star' => 2,
-                                'quatity_feedback' => "199 đánh giá", ),
+            'id'=>5,
+            'name'=>"The Cosmos(Den) Quan short kaki",
+            'code'=>"TC1025011BA",
+            'price'=>'398.000',
+            'old_price'=>'',
+            'img' => 'https://img.cdn.vncdn.io/cdn-pos/d0f3ca-7136/ps/20230207_fHUA79xpTfTtZPtw.jpeg',
            ),
         array(
-            'img' => 'https://cdn.tgdd.vn/Products/Images/42/249945/oppo-a16k-thumb1-600x600-1-600x600.jpg',
-            'name' => 'Bopo Reno8',
-            'price' => '6.300.000đ',
-            'feedback' => array(
-                                'quatity_star' => 4,
-                                'quatity_feedback' => "9989 đánh giá", ),
+            'id'=>6,
+            'name'=>"The Cosmos(Den) Quan short kaki",
+            'code'=>"TC1025011BA",
+            'price'=>'398.000',
+            'old_price'=>'498.000',
+            
+            'img' => 'https://img.cdn.vncdn.io/cdn-pos/d0f3ca-7136/ps/20230207_nSkfVziNdvxCkeLJ.jpeg',
             ),
         array(
-            'img' => 'https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-max-vang-thumb-600x600.jpg',
-            'name' => 'Copo Reno8',
-            'price' => '1.700.000đ',
-            'feedback' => array(
-                                'quatity_star' => 5,
-                                'quatity_feedback' => "9999 đánh giá", ),
+            'id'=>7,
+            'name'=>"The Cosmos(Den) Quan short kaki",
+            'code'=>"TC1025011BA",
+            'price'=>'398 000',
+            'old_price'=>'',
+            'img' => 'https://img.cdn.vncdn.io/cdn-pos/d0f3ca-7136/ps/20230110_OWYoFmcieRaZfJuA.jpeg',
             ),
-        array(
-            'img' => 'https://cdn.tgdd.vn/Products/Images/42/249945/oppo-a16k-thumb1-600x600-1-600x600.jpg',
-            'name' => 'Oppo Reno8',
-            'price' => '1.900.000đ',
-            'feedback' => array(
-                                'quatity_star' => 4,
-                                'quatity_feedback' => "9999 đánh giá", ),
-            ),
+            array(
+                'id'=>8,
+                'name'=>"The Cosmos(Den) Quan short kaki",
+                'code'=>"TC1025011BA",
+                'price'=>'3938 000',
+                'old_price'=>'555.000',
+                'img' => 'https://img.cdn.vncdn.io/cdn-pos/d0f3ca-7136/ps/20230110_OWYoFmcieRaZfJuA.jpeg',
+                ),
+        
         
         ));
 
-        ksort($list_phones);
+     
 ?>
 
 <div id="content">
     
     <?php 
     
-    foreach ($list_phones as $key => $value) { ?>
+    foreach ($product as $key => $value) { ?>
         <div class="title"> 
             <?php echo $key ?>
     </div>
@@ -107,18 +110,14 @@
                     <div class="card" id="card-item">
                     <div id="phone_img" class="card-img-top"><img src="<?php echo $v['img'] ?>"> </div>
                     <div class="card-body">
-                        <div id="phone_name" class="card-title"><?php echo $v['name'] ?> </div>
-                        <div id="phone_price" ><?php echo $v['price'] ?></div>
-                        <div id="phone_feedback">
-                            <?php 
-                                $quatity_star= $v['feedback']['quatity_star'];
-                                for ($i=0; $i< $quatity_star; $i++) {
-                                    echo '<span class="star"><i class="fa-sharp fa-solid fa-star"></i></span>';};
-                            
-                            echo '<span> ' .$v['feedback']['quatity_feedback']. '</span>';
-                            ?>
+                        <div id="name" class="card-title"><?php echo $v['name'] ?> </div>
+                        <div id="code" style="text-align:center"; class="card-title"><?php echo $v['code'] ?> </div>
+                        <div id="price" style="display:flex">
+                        <div id="new_price" style="text-align:center;color: red;"><?php echo $v['price']."đ" ?></div>
+                        <del id="old_price" style="text-align:center;color: red;margin-left: 85px"><?php echo $v['old_price'] ?></del>
                         </div>
-                        <div id="plus_button"><button id="plus">+</button></div>
+                        <!-- <button style="text-align: center; background-color:orange; color:white"><a href=""onclick="return confirm('Thank you for order')"class="btn">Đặt hàng</a></button> -->
+                        <div id="button" style="text-align: center;"  onclick="return confirm('Thank you for order')"><button  style="text-align: center; background-color:orange; color:white" id="buy">Đặt mua</button></div>
                     </div>
                     </div>
             <?php }

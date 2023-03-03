@@ -1,14 +1,21 @@
-.card-group{
+ .card-group{
     grid: 25% 25% 25% 25%;
     display: flex;
     gap: 10px;
     
 }
-.card{
-    width: 250px;
-    height: 500px;
+.card-body #code{
+    text-align: center;
 }
-#phone_img img {
+#price{
+    color: red;
+    text-align: center;
+}
+.card{
+    width: 210px;
+    height: 260px;
+} 
+ #phone_img img {
     width: 210px;
     height: 260px;
 }
@@ -24,16 +31,12 @@
     background-color:aqua;
     border-radius: 50px;
 }
-#phone_price{
+#price{
     color: red;
 }
-#plus_button{
+#button{
     padding-left: 190px;
    
 }
-#plus{
-    border-radius: 140px;
-}
-.phone_name{
-    font-weight: 400px;
-}
+
+
